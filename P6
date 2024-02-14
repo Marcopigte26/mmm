@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	int c[10];
+	
+	for(int a = 0; a<10; a++) {
+		c[a] = 0;
+		
+	}
+	for(int a = 0; a < 10; a++) {
+		cout<<"#"<<"ELEM:"<<c[a]<<endl;
+		
+	}
+}
